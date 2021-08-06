@@ -1,7 +1,7 @@
 #include"Interface.h"
 
 int main() {
-	
+
 	Shop shop;
 	//Game Consoles
 	shop.Add(new GameConsole(214565848, "Sony", 499.99, "PlayStation 4", "White", 8, 2.4, 512));
@@ -81,7 +81,6 @@ int main() {
 	shop.Add(new TV(986679854, "Philips", 659.99, 59, "2560 x 1600", 4, "Android", 2021, "White"));
 	shop.Add(new TV(989979864, "LG", 329.99, 58, "2560 x 1600", 4, "Android", 2020, "Black"));
 
-	//Start
 	Interface interFace;
 	interFace.StartMenu(shop);
 
